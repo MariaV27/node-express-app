@@ -11,3 +11,6 @@ var PORT = process.env.NODE_ENV || 7000;
 app.listen(PORT, function() {
   console.log('Listening on %s', PORT);
 });
+
+//use mysql.server start
+//use mysql -uroot
